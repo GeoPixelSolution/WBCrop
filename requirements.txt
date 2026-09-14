@@ -1,0 +1,11 @@
+numpy
+pandas
+geopandas
+rasterio
+scikit-learn
+matplotlib
+xarray
+jupyter
+dask
+zarr
+torch

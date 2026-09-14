@@ -1,0 +1,42 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Remote sensing data
+*.tif
+*.tiff
+*.jp2
+*.hdf
+*.h5
+*.nc
+*.img
+
+# Large data directories
+data/raw/*
+data/downloaded/*
+data/processed/*
+data/samples/*
+
+# Models
+models/checkpoints/*
+models/trained_models/*
+*.pt
+*.pth
+*.ckpt
+*.keras
+
+# Generated outputs
+outputs/figures/*
+outputs/maps/*
+outputs/tables/*
+outputs/metrics/*
+outputs/predictions/*
+
+# Environment / credentials
+.env
