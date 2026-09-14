@@ -17,19 +17,24 @@ env/
 *.nc
 *.img
 
-# Large data directories
+# Large remote sensing data
 data/raw/*
 data/downloaded/*
 data/processed/*
 data/samples/*
 
+# Keep folder structure in Git
+!data/raw/.gitkeep
+!data/downloaded/.gitkeep
+!data/processed/.gitkeep
+!data/samples/.gitkeep
+
 # Models
 models/checkpoints/*
 models/trained_models/*
-*.pt
-*.pth
-*.ckpt
-*.keras
+
+!models/checkpoints/.gitkeep
+!models/trained_models/.gitkeep
 
 # Generated outputs
 outputs/figures/*
@@ -38,5 +43,10 @@ outputs/tables/*
 outputs/metrics/*
 outputs/predictions/*
 
+!outputs/figures/.gitkeep
+!outputs/maps/.gitkeep
+!outputs/tables/.gitkeep
+!outputs/metrics/.gitkeep
+!outputs/predictions/.gitkeep
 # Environment / credentials
 .env
